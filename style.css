@@ -1,0 +1,196 @@
+*{
+    background-color: black;
+    color: white;
+  }
+  #navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: solid #1f40d3;
+    height: 100%;
+    width: 320px;
+    cursor: pointer;
+  }
+  
+  #navbar a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    border-top: 1px solid;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #navbar a:hover{
+    color: #1f40d3;;
+  }
+  
+  main{
+    margin: 0 0 0 320px;
+  }
+  
+  header{
+    font-size: 1.7em;
+    padding: 0 20px 20px 20px;
+  }
+  
+  @media (max-width: 420px) {
+    header{
+      font-size: 15px;
+    }
+  }
+  
+  section{
+    margin: 0 0 0 25px;
+    font-size: 1.4em;
+  }
+  
+  li{
+    padding: 0 0 20px 0;
+    width: 100%;
+    /* text-align: center; */
+  }
+  
+  #top{
+    color: #337CCF;;
+  }
+  
+  #point{
+    font-size: 1.5em;
+    color: #337CCF;
+    font-weight: 900;
+  }
+  
+  img{
+    
+    border: solid ;
+  }
+  
+  img:hover{
+    border-color:#337CCF;; 
+  }
+  
+  #photos{
+    display: flex;
+  }
+  
+  #attack3{
+    width: 46%;
+  }
+  
+  #lelouch2{
+    height: 400px;
+  }
+  
+  #lelouch3{
+    width: 33%;
+    height: 400px;
+  }
+  
+  #light{
+    height: 400px;
+  }
+  
+  #baji{
+    height: 400px;
+    width: 380px;
+  }
+  #navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: solid #337CCF;;
+    height: 100%;
+    width: 320px;
+    cursor: pointer;
+  }
+  
+  #navbar a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    border-top: 1px solid;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #navbar a:hover{
+    color: #337CCF;;
+  }
+  
+  main{
+    margin: 0 0 0 320px;
+  }
+  
+  header{
+    font-size: 1.7em;
+    padding: 0 20px 20px 20px;
+  }
+  
+  @media (max-width: 420px) {
+    header{
+      font-size: 15px;
+    }
+  }
+
+@media (max-width: 1024px){
+  p,li{
+      font-size: 2rem;
+      /* overflow-x: scroll;
+      overflow-y: scroll; */
+  }
+}
+
+  section{
+    margin: 0 0 0 25px;
+    font-size: 1.4em;
+  }
+  
+  li{
+    padding: 0 0 20px 0;
+    width: 100%;
+  }
+  
+  #top{
+    color: #337CCF;;
+  }
+  
+  #point{
+    font-size: 1.5em;
+    color: #337CCF;;
+  }
+  
+  img{
+    
+    border: solid ;
+  }
+  
+  img:hover{
+    border-color:#337CCF; 
+  }
+  
+  #photos{
+    display: flex;
+  }
+  
+  #attack3{
+    width: 46%;
+  }
+  
+  #lelouch2{
+    height: 400px;
+  }
+  
+  #lelouch3{
+    width: 33%;
+    height: 400px;
+  }
+  
+  #light{
+    height: 400px;
+  }
+  
+  #baji{
+    height: 400px;
+    width: 380px;
+  }
